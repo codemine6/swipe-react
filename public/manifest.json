@@ -1,0 +1,17 @@
+{
+    "name": "Swipe",
+    "short_name": "Swipe",
+    "description": "Simple Social Media App",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#000",
+    "icons": [
+        {
+            "src": "./Logo.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}

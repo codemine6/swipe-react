@@ -1,0 +1,30 @@
+.auth {
+    width: 17rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.auth h1 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.auth p {
+    color: #f00;
+    font-size: .9rem;
+    text-align: center;
+}
+.auth button {
+    color: #fff;
+    font-weight: bold;
+    background: #1890ff;
+    border: none;
+    border-radius: 2rem;
+    display: block;
+    padding: .7rem 1.5rem;
+    margin: 3rem auto 1rem;
+}
+.auth span {
+    color: #1890ff;
+    font-size: .9rem;
+}

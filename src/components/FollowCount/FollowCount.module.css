@@ -1,0 +1,23 @@
+.follow {
+    text-align: center;
+    margin: 1rem;
+}
+.follow span {
+    color: #fff;
+    font-weight: bold;
+    background: #1890ff;
+    border-radius: 1rem;
+    padding: .4rem .8rem;
+}
+.count {
+    margin: 0 4rem;
+}
+.count div {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.count p {
+    color: #777;
+    font-size: .8rem;
+}

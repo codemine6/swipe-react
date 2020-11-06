@@ -1,0 +1,38 @@
+.item {
+    position: relative;
+    padding: .3rem 0;
+}
+.item img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.item h4 {
+    top: .3rem;
+    left: 4rem;
+    position: absolute;
+}
+.item p, .item b {
+    top: 1.6rem;
+    left: 4rem;
+    color: #888;
+    font-size: .9rem;
+    position: absolute;
+}
+.item svg {
+    width: 1rem;
+    top: 1.7rem;
+    left: 4rem;
+    fill: #888;
+    position: absolute;
+}
+.item span {
+    top: 1rem;
+    right: 0;
+    color: #fff;
+    font-size: .7rem;
+    background: #1890ff;
+    border-radius: 50%;
+    position: absolute;
+    padding: .1rem .3rem;
+}

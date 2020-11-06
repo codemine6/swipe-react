@@ -1,0 +1,36 @@
+.me {
+    width: fit-content;
+    color: #fff;
+    background: #1890ff;
+    border-radius: .8rem .8rem 0 .8rem;
+    padding: .5rem .8rem;
+    margin: 1rem 1.5rem 1rem auto;
+}
+.me img {
+    width: 8rem;
+    margin-top: .5rem;
+}
+.me span {
+    font-size: .6rem;
+}
+.me i {
+    font-size: .7rem;
+    font-weight: bold;
+    margin-left: .5rem;
+}
+
+.other {
+    width: fit-content;
+    border: .1rem solid #ccc;
+    border-radius: 0 .8rem .8rem .8rem;
+    padding: .5rem 1rem .3rem;
+    margin: 1rem 1.5rem;
+}
+.other img {
+    width: 8rem;
+    margin-top: .5rem;
+}
+.other span {
+    color: #aaa;
+    font-size: .6rem;
+}

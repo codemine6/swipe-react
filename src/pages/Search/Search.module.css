@@ -1,0 +1,21 @@
+.form {
+    margin: 1rem 2rem;
+}
+.form input {
+    width: 100%;
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.menu {
+    margin: 1rem 5rem 2rem;
+}
+.menu span {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.active {
+    color: #1890ff;
+    font-weight: bold;
+}

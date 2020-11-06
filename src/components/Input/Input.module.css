@@ -1,0 +1,41 @@
+.form {
+    position: relative;
+    margin: 2rem 0;
+}
+.form input {
+    width: 100%;
+    border: none;
+    border-bottom: .1rem solid #ccc;
+    padding: .5rem 2.5rem .5rem .7rem;
+}
+.form svg {
+    width: 1.2rem;
+    top: .3rem;
+    right: .3rem;
+    fill: #aaa;
+    position: absolute;
+}
+.form label {
+    top: .3rem;
+    left: .7rem;
+    color: #aaa;
+    font-size: .9rem;
+    pointer-events: none;
+    position: absolute;
+    transition: .2s;
+}
+.active {
+    border-bottom: .1rem solid #1890ff !important;
+    outline: none;
+    transition: .2s;
+}
+.active ~ label {
+    color: #1890ff;
+    font-size: .7rem;
+    transform: translate(-.5rem, -1.3rem);
+}
+.form span {
+    color: #f00;
+    font-size: .7rem;
+    margin: .5rem;
+}

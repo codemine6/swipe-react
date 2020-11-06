@@ -1,0 +1,32 @@
+.nav {
+    width: inherit;
+    max-width: inherit;
+    height: 3.5rem;
+    bottom: 0;
+    background: #fff;
+    border-top: .1rem solid #ddd;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .7rem;
+}
+.nav svg {
+    width: 1.7rem;
+    fill: #888;
+}
+.nav div {
+    position: relative;
+}
+.nav span {
+    top: -.3rem;
+    right: -.3rem;
+    color: #fff;
+    font-size: .6rem;
+    background: #1890ff;
+    border-radius: 50%;
+    position: absolute;
+    padding: .1rem .3rem;
+}
+.active svg {
+    fill: #1890ff;
+}

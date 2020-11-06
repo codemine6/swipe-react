@@ -1,0 +1,41 @@
+/* Privacy */
+.privacy {
+    margin: 2rem;
+}
+.privacy div {
+    position: relative;
+    margin: .5rem;
+}
+.privacy p {
+    color: #555;
+    font-size: .9rem;
+    margin-right: 3rem;
+}
+.privacy input {
+    display: none;
+}
+.privacy label {
+    width: 2rem;
+    height: 1.2rem;
+    top: .1rem;
+    right: 0;
+    background: #ddd;
+    border-radius: 1rem;
+    position: absolute;
+}
+.privacy label::before {
+    content: '';
+    width: .9rem;
+    height: .9rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    margin: .1rem .2rem;
+    transition: .2s;
+}
+.privacy input:checked ~ label {
+    background: #1890ff;
+}
+.privacy input:checked ~ label::before {
+    transform: translateX(.8rem);
+}

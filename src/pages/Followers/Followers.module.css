@@ -1,0 +1,12 @@
+.menu {
+    margin: 2rem;
+}
+.menu span {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.active {
+    color: #1980ff;
+    font-weight: bold;
+}

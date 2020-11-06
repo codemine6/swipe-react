@@ -1,0 +1,16 @@
+.addComment {
+    position: relative;
+    margin: 1rem 2rem;
+}
+.addComment svg {
+    width: 1rem;
+    top: .2rem;
+    fill: #1890ff;
+    position: absolute;
+}
+.addComment span {
+    color: #1890ff;
+    font-size: .9rem;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}

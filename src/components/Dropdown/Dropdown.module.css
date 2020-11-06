@@ -1,0 +1,22 @@
+.more {
+    top: 3rem;
+    right: 1.5rem;
+    background: #fff;
+    border-radius: .3rem;
+    box-shadow: 0 .2rem .5rem #ddd;
+    position: absolute;
+    padding: .6rem .8rem;
+    z-index: 2;
+}
+.more p {
+    line-height: 1.5rem;
+    font-size: .8rem;
+}
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}

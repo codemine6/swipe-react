@@ -1,0 +1,15 @@
+.privacy {
+    width: 1rem;
+    right: 3.5rem;
+    fill: #888;
+    position: absolute;
+}
+.settingIcon {
+    width: 1.2rem;
+    right: 1.5rem;
+    fill: #888;
+    position: absolute;
+}
+.setting {
+    margin: 1.5rem;
+}

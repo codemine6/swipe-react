@@ -1,0 +1,74 @@
+/* Main */
+.main {
+    text-align: center;
+    position: relative;
+    margin: 1.5rem;
+}
+.main img {
+    width: 8rem;
+    height: 8rem;
+    border: .2rem solid #1890ff;
+    border-radius: 50%;
+}
+.main h3 {
+    margin: 1rem 0 .3rem;
+}
+.main p {
+    color: #777;
+    font-size: .9rem;
+    margin: 0 2rem;
+}
+.main svg {
+    width: 2rem;
+    top: 6.5rem;
+    right: 6rem;
+    fill: #fff;
+    background: #1890ff;
+    border: .2rem solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    padding: .3rem;
+}
+.main input {
+    display: none;
+}
+
+/* Menu */
+.menu {
+    text-align: center;
+    border-top: .1rem solid #ccc;
+    padding-top: 1rem;
+    margin: 1.5rem 2rem;
+}
+.menu span {
+    margin: 0 1rem;
+}
+.active {
+    color: #1890ff;
+    font-weight: bold;
+}
+
+/* Info */
+.info {
+    margin: 2rem;
+}
+.info span {
+    color: #1890ff;
+    text-align: center;
+    display: block;
+    margin-bottom: 1rem;
+}
+.info span svg {
+    width: 1rem;
+    top: .1rem;
+    fill: #1890ff;
+    position: relative;
+}
+.info h5 {
+    color: #888;
+}
+.info p {
+    color: #555;
+    font-size: .9rem;
+    margin: .5rem 0;
+}

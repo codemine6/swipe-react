@@ -1,0 +1,25 @@
+.item {
+    position: relative;
+    margin: 1rem 2rem;
+}
+.item img {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+}
+.item h4 {
+    top: 0;
+    left: 4rem;
+    position: absolute;
+}
+.item p {
+    width: 75%;
+    top: 1.5rem;
+    left: 4rem;
+    color: #888;
+    font-size: .8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+}

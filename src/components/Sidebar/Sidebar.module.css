@@ -1,0 +1,20 @@
+#sidebar {
+    width: 70%;
+    max-width: inherit;
+    height: 100vh;
+    top: 3.5rem;
+    right: 0;
+    background: #fff;
+    position: fixed;
+    transform: translateX(70vw);
+    padding-top: 1rem;
+    z-index: 3;
+    transition: .2s;
+}
+#sidebar div {
+    line-height: 2.5rem;
+    padding: 0 2rem;
+}
+.open {
+    transform: translateX(0) !important;
+}

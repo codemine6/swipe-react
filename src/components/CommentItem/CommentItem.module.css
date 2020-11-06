@@ -1,0 +1,27 @@
+#item {
+    position: relative;
+    padding: 1rem 0 1rem 4rem;
+    margin: 0 2rem;
+}
+#item img {
+    width: 2.5rem;
+    height: 2.5rem;
+    left: 0;
+    border: .1rem solid #1890ff;
+    border-radius: 50%;
+    position: absolute;
+}
+.option {
+    width: 1.2rem;
+    top: 1rem;
+    right: 1rem;
+    position: absolute;
+}
+#text {
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+#time {
+    color: #aaa;
+    font-size: .8rem;
+}

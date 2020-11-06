@@ -1,0 +1,36 @@
+.search {
+    margin: 1rem 2rem;
+}
+.search input {
+    width: 100%;
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.users {
+    display: flex;
+    overflow-x: scroll;
+    margin: 1.5rem 2rem;
+}
+.users div {
+    width: 3rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+.users img {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+}
+.users p {
+    font-size: .7rem;
+}
+
+.list {
+    margin: 2rem;
+}
+.list h3 {
+    color: #888;
+    margin-bottom: 1rem;
+}

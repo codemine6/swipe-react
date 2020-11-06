@@ -1,0 +1,16 @@
+.profile {
+    margin: 2rem;
+}
+.profile h5 {
+    margin-top: .7rem;
+}
+.profile input[type="date"] {
+    border: none;
+    margin: .5rem;
+}
+.profile label {
+    display: block;
+}
+.profile input[type="radio"] {
+    margin: .5rem;
+}
